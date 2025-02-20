@@ -1,0 +1,544 @@
+:root {
+    --geral-background: #191818;
+    --content-background: #230232;
+    --geral-font-color: #ffffff;
+    --primary-color: #9400d3;
+    --secondary-color: #c16af0;
+    --strong-color: #fcf2ff;
+
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos do modo escuro */
+.dark-mode {
+    background-color: var(--geral-background);
+    color: #e0e0e0;
+}
+
+/* Botão de alternância */
+.toggle-button {
+    position: center;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #8851d0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    min-width: 160px;
+    min-height: 60px;
+    font-size: 14px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.dark-mode .toggle-button {
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+
+.dark-mode .toggle-button:hover {
+    color: #8851d0;
+    text-decoration: none;
+    background-color: var(--strong-color);
+}
+
+/* Outros ajustes para o modo noturno */
+.dark-mode header,
+.dark-mode #sidebar,
+.dark-mode #main,
+.dark-mode .content {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode hr {
+    border-bottom: solid 1px #ffffff;
+}
+
+.dark-mode #note {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content1.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content2.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content3.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content4.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content5.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content6.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content7.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content8.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content9.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content10.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content11.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content12.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content13.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content14.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content15.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content16.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content17.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content18.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content19.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content20.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content21.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content22.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content23.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content24.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content25.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content26.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content27.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content28.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content29.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode #main-content30.lead {
+    /* Define a cor dos elementos de dentro das divs de capítulo */
+    background-color: var(--content-background);
+    border: var(--content-background);
+    color: var(--geral-font-color);
+
+}
+
+.dark-mode strong {
+    /* Define as características do negrito do título */
+    color: var(--strong-color);
+}
+
+.dark-mode .chat-container {
+    color: #000;
+}
+
+.dark-mode .message-content {
+    color: #000;
+}
+
+.dark-mode .instagram-post {
+    color: #000;
+}
+
+
+.dark-mode #menu ul a {
+    color: #b08dbe;
+    /* Define a cor roxa escura para links no modo noturno */
+    text-decoration: none;
+    /* Remove a sublinhado dos links */
+}
+
+.dark-mode #menu ul a:hover {
+    color: #d8cce7;
+    /* Ajuste a cor dos links quando o cursor passa sobre eles, se necessário */
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+}
+
+.dark-mode #menu ul a:active {
+    color: #4a0072;
+    /* Ajuste a cor quando o link é clicado, se necessário */
+}
+
+.dark-mode #menu ul a:visited {
+    color: #782e96;
+    /* Ajuste a cor dos links visitados, se necessário */
+}
+
+
+.dark-mode h2 {
+    color: var(--secondary-color);
+}
+
+.dark-mode h3 {
+    color: var(--secondary-color);
+}
+
+.dark-mode h4 {
+    color: var(--secondary-color);
+}
+
+.dark-mode b {
+    color: #d5b6f4;
+}
+
+.dark-mode #contador {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.dark-mode transp {
+    text-decoration-color: #FFF;
+    background-image: none;
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.dark-mode #header {
+    border-bottom: solid 5px var(--secondary-color)
+}
+
+.dark-mode a {
+    color: var(--secondary-color);
+}
+
+.dark-mode a.button {
+    color: var(--secondary-color);
+}
+
+.dark-mode .poll-container {
+    display: flex;
+    flex-direction: column;
+    /* Alinhamento vertical dos elementos */
+    padding: 5px;
+    /* Aumento do padding para mais espaço interno */
+    background-color: #230232;
+    /* Cinza claro */
+    color: #ffffff;
+    /* Lilás para o texto */
+    font-family: Tahoma, roboto;
+    border-radius: 20px;
+    width: 100%;
+    /* Largura ajustada do contêiner para 600px */
+    margin: auto;
+    /* Centraliza o contêiner */
+}
+
+.dark-mode #option {
+    color: #c6a8d4;
+}
+
+.dark-mode .poll-button {
+    background-color: #ffffff;
+    /* Cor de fundo branca */
+    color: #6f49b4;
+    /* Cor lilás para o texto */
+    border: 2px solid #d1d1d1;
+    /* Borda em lilás mais escuro */
+    padding: 10px 16px;
+    /* Aumento do padding do botão para melhor centralização do texto */
+    border-radius: 20px;
+    /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 12px;
+    /* Tamanho da fonte do botão */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transições suaves para efeito hover */
+    display: flex;
+    /* Faz o botão se comportar como um flex container */
+    align-items: center;
+    /* Alinha o texto verticalmente ao centro */
+    justify-content: center;
+    /* Alinha o texto horizontalmente ao centro */
+    margin: 0 auto;
+    /* Centraliza o botão horizontalmente */
+    text-align: center;
+    /* Centraliza o texto do botão */
+    width: fit-content;
+    /* Ajusta a largura do botão ao conteúdo */
+}
+
+.dark-mode .poll-button:hover {
+    background-color: #ffffff;
+    /* Cor de fundo ao passar o mouse */
+    color: #7a7a7a;
+    /* Texto em cinza ao passar o mouse */
+}
+
+.dark-mode .result-message {
+    font-size: 14px;
+    /* Aumento do tamanho da fonte da mensagem de resultado */
+    color: #ffffff;
+    text-align: center;
+    /* Centraliza a mensagem de resultado */
+}
+
+.dark-mode .vote-percentage {
+    background-color: #d5B6F4;
+    /* Fundo lilás para cada porcentagem */
+    border-radius: 20px;
+    /* Bordas arredondadas */
+    padding: 5px 10px;
+    /* Espaçamento interno */
+    margin: 5px 0;
+    /* Margem entre as porcentagens */
+    display: inline-block;
+    /* Para o fundo funcionar corretamente */
+    font-size: 14px;
+    /* Tamanho da fonte da porcentagem */
+    color: #252525;
+    /* Cor do texto lilás */
+    flex-wrap: wrap;
+}
+
+.dark-mode .story-container {
+    background-color: var(--content-background);
+}
+
+.dark-mode .templatemo-header-left-overlay {
+    background-color: var(--geral-background);
+}
+
+.dark-mode .templatemo-gray-bg {
+    background: var(--content-background);
+}
+
+.dark-mode .templatemo-dark-bg {
+    background: var(--content-background);
+}
+
+.dark-mode .templatemo-social a {
+    color: var(--content-background);
+}
+
+.dark-mode .templatemo-slogan {
+    color: var(--strong-color);
+}
+
+.dark-mode .templatemo-header-left,
+.dark-mode .templatemo-header-right {
+    background-color: var(--content-background);
+    color: var(--geral-font-color);
+}
+
+.dark-mode a.social {
+    color: var(--content-background);
+}
+
+.dark-mode #mc {
+    color: var(--secondary-color);
+}
+
+.dark-mode ul {
+    background-color: var(--content-background);
+}
+
+.dark-mode a:hover {
+    color: #8851d0;
+    text-decoration: none;
+}
+
+.dark-mode footer {
+    background-color: var(--geral-background);
+    color: #e0e0e0;
+}
+
+
+.dark-mode nav {
+    background: var(--content-background);
+}
