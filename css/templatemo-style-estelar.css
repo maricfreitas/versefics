@@ -12,6 +12,11 @@ TABLE OF CONTENT
 ----------------------------------------------*/
 /* 1. Universal Styles
 ----------------------------------------------*/
+html {
+	height: 100%;
+	width: 100%;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -45,8 +50,10 @@ h3 {
 
 .templatemo-container {
 	margin: 0 auto;
-	max-width: 1600px;
 	overflow: hidden;
+	display: block;
+	max-width: 100%;
+	height: auto
 }
 
 .gold-text {
@@ -131,11 +138,9 @@ section {
 .templatemo-block-left,
 .templatemo-block-right {
 	float: left;
-}
-
-.templatemo-header-left,
-.templatemo-header-right {
-	height: 450px;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 .templatemo-header-left {
@@ -143,6 +148,7 @@ section {
 	background-size: cover;
 	color: #a5a5a5;
 	position: relative;
+	height: 45vh;
 }
 
 .templatemo-header-left-overlay {
@@ -789,6 +795,19 @@ hr.gold-hr {
 
 /* 8. Media Queries 
 --------------------------------------*/
+@media screen and (min-width: 1440px) {
+	.templatemo-header-left {
+		height: 41vh;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.templatemo-header-left {
+		height: 45vh;
+	}
+}
+
+
 @media screen and (max-width: 991px) {
 
 	.templatemo-header-left,
@@ -816,6 +835,14 @@ hr.gold-hr {
 
 @media screen and (max-width: 767px) {
 
+	.templatemo-container {
+		margin: 0 auto;
+		overflow: hidden;
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+
 	.templatemo-block-left,
 	.templatemo-block-right {
 		float: none;
@@ -824,10 +851,12 @@ hr.gold-hr {
 
 	.templatemo-header-left {
 		height: 100%;
+		width: auto;
 	}
 
 	.templatemo-header-right {
-		height: 200px;
+		height: auto;
+		width: auto;
 	}
 
 	.templatemo-header-left-overlay {
